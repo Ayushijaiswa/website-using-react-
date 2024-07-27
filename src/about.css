@@ -1,0 +1,44 @@
+.left{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    height:18vh;
+    margin-left: 34px;
+    object-fit: cover;
+    
+}
+.right{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    height: 18vh;
+    margin-right: 34px;
+    object-fit: cover;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 0 5px;
+}
+div.about-in{
+    align-items: center;
+    margin-left: 100px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    
+}
+.about-in h3{
+    font-size: 54px;
+    font-weight: 800;
+    text-align: center;
+}
+.about-in p{
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 1;
+
+}
